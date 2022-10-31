@@ -92,9 +92,7 @@ button:focus {
     margin-top: 200px;
     position: relative;
 }
-.footer__social-item img{
-    background: green;
-}
+
 .footer__box{
     max-width: 1160px;
     width: 100%;
