@@ -89,7 +89,7 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+   
     position: relative;
 }
 
@@ -113,6 +113,7 @@ button:focus {
     margin-top: 40px;
 }
 .footer__social-item{
+  cursor: pointer;
 }
 .footer__socials{
     margin-top: 50px;
@@ -135,6 +136,7 @@ button:focus {
   align-items: center;
   justify-content: center;
   padding: 5px 0;
+  
 }
 .header__box {
   max-width: 1160px;
@@ -156,6 +158,9 @@ button:focus {
   color: white;
   text-decoration: none;
   transition: color 0.2s;
+  position: relative;
+  z-index: 100;
+
 }
 .header__nav-ul li a:hover {
   color: var(--orange);
